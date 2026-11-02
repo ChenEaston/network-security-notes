@@ -1,0 +1,19 @@
+# 本地私有资料目录（推送前仍需人工检查）
+/private/
+/customer-data/
+
+# 常见凭据与本地环境文件
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# 编辑器与系统临时文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
